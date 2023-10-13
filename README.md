@@ -17,8 +17,6 @@ Below is the Acceptance Criteria:
 This project can be used to write and save notes. 
 ![Example](assets/images/note-taker-screenshot.png)
 
-[Link to video walkthrough here.](https://drive.google.com/file)
-
 ## Credits
 
 Existing front end code was provided by the UCLA Web Dev Bootcamp. 
