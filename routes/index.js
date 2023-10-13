@@ -3,8 +3,6 @@ const path = require('path');
 const {readFromFile, writeToFile} = require('../helpers/fsUtils');
 
 // /api endpoint.
-
-
 // GET /api/notes should read the db.json file and return all saved notes as JSON.
 router.get('/notes', async (req, res) => {
     let notes = await readFromFile('./db/db.json');
@@ -12,7 +10,7 @@ router.get('/notes', async (req, res) => {
     res.json(parseNotes);
 });
 
-// GET Route for retrieving notes.html
+// GET Route for retrieving notes.html.
 router.post('/notes', async (req, res) => {
     let notes = await readFromFile('./db/db.json');
     let parseNotes = JSON.parse(notes);
