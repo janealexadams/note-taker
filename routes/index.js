@@ -22,4 +22,5 @@ router.post('/notes', async (req, res) => {
     res.json(updatedNotes);
 });
 
+
 module.exports = router;
