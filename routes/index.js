@@ -55,7 +55,7 @@ router.post('/notes', async (req, res) => {
 
 
 // DELETE Route 
-router.delete('notes/:id', (req, res) => {
+router.delete('/notes/:id', (req, res) => {
     const noteId = req.params.id;
     readFromFile('./db/db.json')
       .then((parseNotes) => JSON.parse(parseNotes))
@@ -64,12 +64,35 @@ router.delete('notes/:id', (req, res) => {
         const result = json.filter((note) => note.id !== noteId);
   
         // Save that array to the filesystem
-        writeToFile('./db/db.json', result);
+        writeToFile('./db/db.json', JSON.stringify(result));
   
         // Respond to the DELETE request
         res.json(`Note has been deleted 🗑️`);
       });
   });
 
+
+// PUT Route 
+// router.put('/notes/:id', (req, res) => {
+//     const noteId = req.params.id;
+//     const {title,text} = req.body;
+//     const newNote = {
+//         title,
+//         text,
+//         id: uuidv4(),
+//     };
+//     readFromFile('./db/db.json')
+//       .then((parseNotes) => JSON.parse(parseNotes))
+//       .then((json) => {
+//         // Make a new array of all notes except the one with the ID provided in the URL
+//         const result = json.filter((note) => note.id !== noteId);
+  
+//         // Save that array to the filesystem
+//         writeToFile('./db/db.json', JSON.stringify(result));
+  
+//         // Respond to the DELETE request
+//         res.json(`Note has been updated`);
+//       });
+//   });
 
 module.exports = router;
