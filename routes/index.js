@@ -23,4 +23,6 @@ router.post('/notes', async (req, res) => {
 });
 
 
+// DELETE Route 
+
 module.exports = router;
