@@ -35,7 +35,6 @@ router.post('/notes', async (req, res) => {
     res.json(updatedNotes);
 });
 
-
 // DELETE Route 
 router.delete('/notes/:id', (req, res) => {
     const noteId = req.params.id;
@@ -52,7 +51,6 @@ router.delete('/notes/:id', (req, res) => {
         res.json(`Note has been deleted 🗑️`);
       });
   });
-
 
 
 module.exports = router;
