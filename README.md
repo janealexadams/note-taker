@@ -1,22 +1,43 @@
-# Note-Taker
+# Note Taker
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-This website can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+This website can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file using CRUD operations. 
 
-Below is the Acceptance Criteria:
-* WHEN I open the Note Taker THEN I am presented with a landing page with a link to a notes page
-* WHEN I click on the link to the notes page THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
-* WHEN I enter a new note title and the note’s text THEN a "Save Note" button and a "Clear Form" button appear in the navigation at the top of the page
-* WHEN I click on the Save button THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes and the buttons in the navigation disappear
-* WHEN I click on an existing note in the list in the left-hand column THEN that note appears in the right-hand column and a "New Note" button appears in the navigation
-* WHEN I click on the "New Note" button in the navigation at the top of the page THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column and the button disappears
+## Contents
+- [Usage](#usage)
+- [Built With](#built-with)
+- [Deployment](#deployment)
+- [Questions](#questions)
+- [Credits](#credits)
 
 ## Usage
+To use this application, clone the repository to your local machine:
+```
+git clone https://github.com/janealexadams/note-taker.git
+```
 
-This project can be used to write and save notes. 
-![Example](assets/images/note-taker-screenshot.png)
+Then, ensure you have installed the dependencies.
+
+When you are ready to run the application, from the root directory, type the command:
+
+Start Server:
+`npm start`
+
+## Built With
+- Express.js
+- JavaScript
+- Bootstrap
+
+## Questions
+If you have any questions about the repo, please contact me via email at janealexadams@gmail.com. You can find more of my work on my GitHub, [janealexadams](https://github.com/janealexadams).
 
 ## Credits
-
+Created by Jane Adams.
 Existing front end code was provided by the UCLA Web Dev Bootcamp. 
+
+## Deployment
+https://fast-stream-88512-4a2f772d1858.herokuapp.com/notes
+![Note Taker](assets/images/note-taker-screenshot.png)

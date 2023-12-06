@@ -72,7 +72,7 @@ router.delete('/notes/:id', (req, res) => {
   });
 
 
-// PUT Route 
+// PUT Route - update note
 // router.put('/notes/:id', (req, res) => {
 //     const noteId = req.params.id;
 //     const {title,text} = req.body;
