@@ -53,6 +53,7 @@ const deleteNote = (id) =>
     }
   });
 
+
 const renderActiveNote = () => {
   hide(saveNoteBtn);
   hide(clearBtn);

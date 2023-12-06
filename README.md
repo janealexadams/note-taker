@@ -4,7 +4,7 @@
 
 ## Description
 
-This website can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file using CRUD operations. 
+This website can be used to write and save notes. This application will use Node.js and Express.js back end to save and retrieve note data from a JSON file using CRUD operations - GET, POST, and DELETE. 
 
 ## Contents
 - [Usage](#usage)
@@ -28,6 +28,7 @@ Start Server:
 
 ## Built With
 - Express.js
+- Node.js
 - JavaScript
 - Bootstrap
 
@@ -36,6 +37,7 @@ If you have any questions about the repo, please contact me via email at janeale
 
 ## Credits
 Created by Jane Adams.
+
 Existing front end code was provided by the UCLA Web Dev Bootcamp. 
 
 ## Deployment
