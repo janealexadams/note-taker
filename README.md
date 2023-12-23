@@ -41,5 +41,5 @@ Created by Jane Adams.
 Existing front end code was provided by the UCLA Web Dev Bootcamp. 
 
 ## Deployment
-https://fast-stream-88512-4a2f772d1858.herokuapp.com/notes
-![Note Taker](assets/images/note-taker-screenshot.png)
+https://fast-stream-88512-4a2f772d1858.herokuapp.com
+![Note Taker](assets/images/note-taker.gif)
